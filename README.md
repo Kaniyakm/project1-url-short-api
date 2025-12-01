@@ -4,6 +4,9 @@ This project is a fully responsive, interactive URL shortening application built
 
 ---
 
+## Presentation
+https://1drv.ms/p/c/cd59941430361579/IQAkWjhbuPRXTKnWyBitRX3oAUdmeThtPIcVQ1P8UT-L4lI?e=HaVU71&nav=eyJzSWQiOjI2Mn0
+
 ## Live Demo
 https://kaniyakm.github.io/project1-url-short-api/
 
@@ -43,8 +46,8 @@ The project is structured into semantic HTML, modular CSS, and organized JavaScr
 
 ## Technologies Used
 
-- HTML5  
-- CSS3 (Flexbox, Grid, Responsive Layouts)  
+- HTML  
+- CSS (Flexbox, Grid, Responsive Layouts)  
 - JavaScript (ES6+)  
 - Bitly URL Shortening API  
 - Figma (UI Reference)  
@@ -69,12 +72,12 @@ The project is structured into semantic HTML, modular CSS, and organized JavaScr
 7. Copy button uses Clipboard API
 
 ## Project Reflection
-Developing the Shortly URL Shortener application allowed me to apply multiple front-end development skills in a unified, real-world workflow. I began by examining the Figma design and breaking the UI into logical sections—navigation, hero, form box, statistics cards, and footer. This helped me translate the design into clean HTML structure and a scalable CSS system with reusable variables and responsive breakpoints.
+Developing the Shortly URL Shortener application allowed me to apply multiple front-end development skills in a unified, real-world workflow. I began by examining the Figma design and breaking the UI into logical sections—navigation, hero, form box, statistics cards, and footer. This helped me translate the design into clean HTML structure and a scalable CSS system with reusable variables and responsive breakpoints. 
 
-One of the main challenges I faced was integrating the Bitly API. My early attempts returned errors because the request headers and payload needed very specific formatting. To solve this, I carefully reviewed the API documentation, debugged responses in the console, and applied async/await to simplify the logic. Once the connection stabilized, I implemented dynamic rendering so each shortened link appeared instantly in the UI.
+One of the main challenges I faced was integrating the Bitly API. My early attempts returned errors because the request needed very specific formatting. I carefully reviewed the API documentation, debugged responses in the console, and applied async/await to simplify. I Implemented dynamic rendering so each shortened link appeared instantly in the UI.
 
-Another challenge was ensuring a smooth mobile experience. Creating a fully functional hamburger menu required reorganizing the navigation for mobile-first behavior, adding toggle interactions, and merging desktop and mobile CSS cleanly. This significantly improved usability.
+Another challenge was ensuring a smooth mobile experience. Creating a fully functional hamburger menu required reorganizing the navigation for mobile-first behavior, adding toggle interactions, and merging desktop and mobile CSS clean. 
 
-Successfully implementing persistent data storage through localStorage was a highlight. It allowed the app to remember previously shortened links, which made the experience feel more polished and user-friendly.
+Successfully implementing persistent data storage through localStorage was a highlight.
 
-If I were to continue improving this project, I would add animations, a dark mode toggle, user accounts with dashboards, and deeper analytics by expanding Bitly API endpoints. Overall, this project strengthened my understanding of API-driven applications, responsive design, and production-quality front-end development.
+If I were to continue improving this project, I would add animations, a dark mode toggle, and user accounts with dashboards. Overall, this project strengthened my understanding of API applications, responsive design, and quality front-end development.
