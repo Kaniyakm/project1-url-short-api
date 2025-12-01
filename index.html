@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Shortly URL Shortener</title>
+
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js" defer></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- =======================
+       HEADER
+  ======================== -->
+  <header class="header container">
+    <div class="logo">Shortly</div>
+
+    <nav class="nav-links">
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Resources</a>
+    </nav>
+
+    <div class="auth-links">
+      <a href="#" class="login">Login</a>
+      <button class="signup-btn">Sign Up</button>
+    </div>
+  </header>
+
+
+  <!-- =======================
+       HERO
+  ======================== -->
+  <section class="hero container">
+    <div class="hero-content">
+      <h1>More than just <br />shorter links</h1>
+      <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+      <button class="get-started">Get Started</button>
+    </div>
+
+    <div class="hero-image">
+      <img src="./images/illustration-working.svg" alt="Working illustration" />
+    </div>
+  </section>
+
+
+  <!-- =======================
+       SHORTEN BOX
+  ======================== -->
+  <section class="shorten-section">
+    <div class="shorten-box container">
+      <form class="shorten-form">
+        <input type="text" class="shorten-input" placeholder="Shorten a link here..." />
+        <button type="submit" class="shorten-btn">Shorten It!</button>
+      </form>
+      <p class="error-message"></p>
+    </div>
+
+    <div class="links-list container"></div>
+  </section>
+
+
+  <!-- =======================
+       STATISTICS
+  ======================== -->
+  <section class="stats container">
+    <h2>Advanced Statistics</h2>
+    <p class="stats-desc">
+      Track how your links are performing across the web with our advanced statistics dashboard.
+    </p>
+
+    <div class="stats-cards">
+
+      <div class="card">
+        <div class="icon-circle">
+          <img src="./images/icon-brand-recognition.svg" />
+        </div>
+        <h3>Brand Recognition</h3>
+        <p>
+          Boost your brand recognition with each click. Branded links help instill confidence in your content.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon-circle">
+          <img src="./images/icon-detailed-records.svg" />
+        </div>
+        <h3>Detailed Records</h3>
+        <p>
+          Gain insights into who is clicking your links. Understanding user engagement helps guide better decisions.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon-circle">
+          <img src="./images/icon-fully-customizable.svg" />
+        </div>
+        <h3>Fully Customizable</h3>
+        <p>
+          Improve brand awareness and drive engagement with customizable links that fit your audience.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =======================
+       BOOST SECTION
+  ======================== -->
+  <section class="boost">
+    <h2>Boost your links today</h2>
+    <button class="boost-btn">Get Started</button>
+  </section>
+
+
+  <!-- =======================
+       FOOTER
+  ======================== -->
+  <footer class="footer">
+    <div class="footer-col">
+      <h4>Features</h4>
+      <a>Link Shortening</a>
+      <a>Branded Links</a>
+      <a>Analytics</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <a>Blog</a>
+      <a>Developers</a>
+      <a>Support</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a>About</a>
+      <a>Our Team</a>
+      <a>Careers</a>
+      <a>Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
