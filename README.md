@@ -5,7 +5,7 @@ This project is a fully responsive, interactive URL shortening application built
 ---
 
 ## Live Demo
-(Insert GitHub Pages link after deployment)
+https://kaniyakm.github.io/project1-url-short-api/
 
 ---
 
@@ -51,6 +51,22 @@ The project is structured into semantic HTML, modular CSS, and organized JavaScr
 - Git and GitHub  
 
 ---
+
+## How It Works (Process Flow)
+
+1.  User enters URL
+
+2.  JavaScript validates input
+
+3.  A POST request is sent to Bitly API
+
+4. Shortened link is returned and displayed
+
+5. Link is saved to localStorage
+
+6. Cards are re-rendered when page loads
+
+7. Copy button uses Clipboard API
 
 ## Project Reflection
 Developing the Shortly URL Shortener application allowed me to apply multiple front-end development skills in a unified, real-world workflow. I began by examining the Figma design and breaking the UI into logical sections—navigation, hero, form box, statistics cards, and footer. This helped me translate the design into clean HTML structure and a scalable CSS system with reusable variables and responsive breakpoints.
